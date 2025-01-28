@@ -1,8 +1,16 @@
-# React + Vite
+# StreamVibe 
+StreamVibe is a Netflix-like OTT app built with React, Redux, and the Trakt API. It allows users to browse and watch popular movies and TV shows. The app features a movie discovery system, user authentication, and a responsive design optimized for a seamless streaming experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+* Movie Discovery: Browse a vast collection of movies and TV shows with details such as ratings, genres,etc.
+* User Authentication: Secure user login using Appwrite.
+* Movie Posters: Display movie posters with a 30% opacity for a stylish look.
+* Responsive Design: The app is fully responsive, providing a smooth experience across desktops, tablets, and mobile devices.
+* Movie Details: View detailed information about a movie, including cast, crew, and user reviews.
+* Multiple Pages: Includes pages for Home, Movie Details, Support, and Subscription.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+* Frontend: React.js, Redux
+* Backend: Appwrite 
+* API: Trakt API for fetching movie data
+* Styling: CSS and Tailwind CSS
